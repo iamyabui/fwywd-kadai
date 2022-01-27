@@ -5,11 +5,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "bg-about": "url('/bg-about.png')",
-      },
-      spacing: {
-        1120: "70rem",
+      colors: {
+        "origin-black": "#384359",
+        "origin-green": "#008c8d",
+        "bg-header": "#6bc2c3",
+        "bg-footer": "#262c3a",
+        "progress-color1": "#c5eaea",
+        "progress-color2": "#2bb9ba",
+        "border-line": "#c5eaea",
       },
     },
   },

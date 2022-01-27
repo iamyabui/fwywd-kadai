@@ -1,25 +1,27 @@
 import Image from "next/image";
+import SkillGraph from "./SkillGraph";
 
 export default function Skills() {
   return (
-    <div className="flex max-w-5xl mt-6 mb-6 space-x-7">
-      <div>
-        <Image src="/skill.png" alt="skill" width={400} height={300} />
+    <div className="flex justify-center items-center m-auto space-x-7 mt-14 mb-10">
+      <div className="flex justify-center items-center">
+        <Image src="/skill.png" alt="skill" width={380} height={280} />
       </div>
-      <div className="max-w-md">
-        <div className="flex justify-start mt-6 mb-6 space-x-4">
-          <p className="font-bold text-lg leading-relaxed text-gray-600 tracking-widest">
+      <div className="max-w-sm">
+        <div className="flex justify-start mt-6 mb-6 space-x-4 items-center">
+          <p className="font-bold text-xl leading-relaxed text-origin-black tracking-widest">
             スキル
           </p>
-          <p className="font-bold text-lg leading-relaxed text-green-600 tracking-widest">
+          <p className="text-lg leading-relaxed text-origin-green tracking-widest">
             SKILLS
           </p>
         </div>
-        <div>
-          <p>
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          </p>
-        </div>
+
+        <p className="text-sm text-origin-black">
+          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        </p>
+
+        <SkillGraph />
       </div>
     </div>
   );
