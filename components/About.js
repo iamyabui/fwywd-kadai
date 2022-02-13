@@ -6,7 +6,7 @@ export default function About() {
 
   return (
     <>
-      <div className="flex justify-center space-x-4 mt-6 items-center">
+      <div className="flex justify-center space-x-4 pt-6 items-center">
         <p className="font-bold text-xl leading-relaxed text-origin-black tracking-widest">
           私について
         </p>
@@ -15,7 +15,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className="flex justify-center pr-20 pl-20 mt-4 mb-4">
+      <div className="max-w-5xl m-auto flex justify-center px-20 py-4">
         {items.map((data, index) => (
           <div key={index} className="w-72 text-center m-auto">
             <div className="mt-3">

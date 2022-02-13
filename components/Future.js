@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Future() {
   return (
-    <div className="flex w-screen max-w-5xl m-auto space-x-7 pr-20 pl-20 mt-5 mb-8">
+    <div className="flex w-screen max-w-5xl m-auto space-x-7 px-20 py-8">
       <div className="max-w-md">
         <div className="flex space-x-4 items-center">
           <p className="font-bold text-xl leading-relaxed text-origin-black tracking-widest">
