@@ -5,7 +5,7 @@ export default function Values() {
   const items = Data.value;
 
   return (
-    <div className="w-screen max-w-5xl pt-14 mb-10">
+    <div className="pt-14 pb-10">
       <div className="flex justify-center space-x-4 mt-6 items-center">
         <p className="font-bold text-xl leading-relaxed text-gray-600 tracking-widest">
           価値観
@@ -15,7 +15,7 @@ export default function Values() {
         </p>
       </div>
 
-      <div className="flex justify-center p-5 bg-white rounded mr-20 ml-20 text-origin-black">
+      <div className="max-w-5xl m-auto flex justify-center px-20 p-5 bg-white rounded ">
         {items.map((data, index) => (
           <div key={index} className="flex">
             <div className="w-64 text-center m-auto">
