@@ -10,7 +10,10 @@ export default function SkillGraph() {
           <p className="text-origin-green">{data.skill}</p>
           <div className="flex items-center space-x-3">
             <div className="w-full h-3 bg-progress-color1 rounded">
-              <div className="w-1/2 h-3 bg-progress-color2 rounded"></div>
+              <div
+                className={data.border}
+                // style="width: 50%"
+              />
             </div>
             <p className="text-origin-green">{data.percentage}%</p>
           </div>

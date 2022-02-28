@@ -15,10 +15,10 @@ export default function About() {
         </p>
       </div>
 
-      <div className="max-w-5xl m-auto flex justify-center px-20 py-4">
+      <div className="max-w-5xl mx-auto flex justify-center px-20 py-4">
         {items.map((data, index) => (
-          <div key={index} className="w-72 text-center m-auto">
-            <div className="mt-3">
+          <div key={index} className="w-72 mx-auto">
+            <div className="mt-3 text-center">
               <Image
                 src={data.src}
                 alt="about1"
@@ -26,10 +26,10 @@ export default function About() {
                 height={data.height}
               />
             </div>
-            <p className="mt-3 font-bold text-base leading-relaxed text-origin-green tracking-widest">
+            <p className="mt-3 text-center font-bold text-base leading-relaxed text-origin-green tracking-widest">
               {data.category}
             </p>
-            <p className="m-3 text-sm text-origin-black">{data.text}</p>
+            <p className="m-3 text-sm text-origin-black h-34">{data.text}</p>
           </div>
         ))}
       </div>
