@@ -15,17 +15,17 @@ export default function Values() {
         </p>
       </div>
 
-      <div className="max-w-5xl m-auto flex justify-center px-20 p-5 bg-white rounded ">
+      <div className="max-w-5xl m-auto flex justify-center px-20 p-5 bg-white rounded text-origin-black">
         {items.map((data, index) => (
           <div key={index} className="flex">
-            <div className="w-64 text-center m-auto">
-              <div className="mt-3">
+            <div className="w-64 mx-auto">
+              <div className="mt-3 text-center">
                 <Image src={data.src} alt={data.alt} width={150} height={150} />
               </div>
-              <p className="mt-3 font-bold text-base leading-relaxed tracking-widest">
+              <p className="mt-3 text-center font-bold text-base leading-relaxed tracking-widest">
                 {data.value}
               </p>
-              <p className="m-3 text-sm">{data.text}</p>
+              <p className="m-3 text-sm h-34">{data.text}</p>
             </div>
             {index !== 2 && <div className="w-1 bg-border-line"></div>}
           </div>
