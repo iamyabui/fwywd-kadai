@@ -18,11 +18,11 @@ export default function Skills() {
         </div>
 
         <p className="text-sm text-origin-black">
-          AWSを利用したインフラ構築作業やサポート業務を1年ほどしていました。昨年夏に、AWSソリューションアーキテクトの資格を取得しました。
+          AWSのインフラ構築作業やサポート業務を2年ほど行っていました。昨年夏に、AWSソリューションアーキテクトの資格を取得しました。
           <br></br>
           現在所属している開発部では、PMとしてプロジェクトの予算確保からリリースまでを担当しています。
           <br></br>
-          プログラムに関しては、Javascript、React、Next.jsを学んで独自でアプリケーションを作成しています。
+          プログラムに関しては、Javascript、React、Next.js、typescriptを学んで独自でアプリケーションを作成しています。
         </p>
 
         <SkillGraph />

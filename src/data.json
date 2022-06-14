@@ -25,43 +25,43 @@
   "skillGraph": [
     {
       "skill": "React",
-      "percentage": 50,
-      "border": "h-3 w-1/2 bg-progress-color2 rounded"
+      "percentage": "50%",
+      "border": "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-progress-color2"
     },
     {
       "skill": "Next.js",
-      "percentage": 50,
-      "border": "h-3 w-1/2 bg-progress-color2 rounded"
+      "percentage": "50%",
+      "border": "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-progress-color2"
     },
     {
       "skill": "AWS",
-      "percentage": 70,
-      "border": "h-3 w-1/2 bg-progress-color2 rounded"
+      "percentage": "70%",
+      "border": "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-progress-color2"
     },
     {
       "skill": "コミュニケーション力",
-      "percentage": 70,
-      "border": "h-3 w-1/2 bg-progress-color2 rounded"
+      "percentage": "70%",
+      "border": "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-progress-color2"
     }
   ],
   "value": [
     {
       "src": "/value1.png",
       "alt": "value1",
-      "value": "大事なのは人間性",
-      "text": "私が社会人として働くようになって、やはり仕事をやっていく上で人間性は大事だと痛感します。どのような仕事も一人では完結できないので、人間関係を円滑に進めてお互い気持ちよく仕事をしたいと常に思っています。"
+      "value": "コミュ力を高めたい",
+      "text": "私が社会人として働く中で、やはりコミュニケーション力は大事だと痛感します。人に説明したり、自分の考えを伝えるといことは時にとても難しいと感じます。常に相手の立場に立って考えて、相手の意図をくみとったコミュニケーションができる人になりたいと思っています。"
     },
     {
       "src": "/value2.png",
       "alt": "value2",
-      "value": "コミュ力を高めたい！",
-      "text": "人に説明したり、自分の考えを伝えるといことは時にとても難しいと感じます。常に相手の立場に立って考えて、相手の意図をくみとったコミュニケーションができる人になりたいと思っています。"
+      "value": "常に学びたい",
+      "text": "私は常に学びを得えたいと思っています。プログラム学習やアプリ作成を進めていると、考える→調べる→学ぶを常に実践することができ、とてもやりがいを感じています。常に今自分が必要な知識を理解して、それを補い続けることで他の人にも貢献できる人材になりたいです。"
     },
     {
       "src": "/value3.png",
       "alt": "value3",
       "value": "成長は喜び",
-      "text": "少しでも自分の成長を実感できる瞬間が、私が一番幸福感を感じる時です。自分が成長すれば、相手に貢献できることも増えるので、成長のための努力は毎日コツコツ続けていきたいと思ってます。"
+      "text": "自分の成長を実感できる瞬間が、一番幸福を感じる時です。小さな目標を掲げてコツコツ達成することが好きで、学習友達と毎日目標設定と進捗の共有をすることでモチベーションを高めています。これからも、わずからながらでも積み上げを続けて、自身の成長につなげたいです。"
     }
   ]
 }
