@@ -7,10 +7,10 @@ export default function maintitle() {
         <div className="flex pl-16 items-center">
           <div>
             <p className="font-bold text-white text-3xl leading-relaxed tracking-widest">
-              メインタイトル
+              My プロフィール
             </p>
             <p className="text-white text-xl leading-relaxed tracking-widest">
-              サブタイトル
+              薮井　えりか
             </p>
           </div>
         </div>

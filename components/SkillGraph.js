@@ -9,13 +9,11 @@ export default function SkillGraph() {
         <div key={index}>
           <p className="text-origin-green">{data.skill}</p>
           <div className="flex items-center space-x-3">
-            <div className="w-full h-3 bg-progress-color1 rounded">
-              <div
-                className={data.border}
-                // style="width: 50%"
-              />
+            <div className="w-full relative pt-1">
+            <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-progress-color1">
+              <div style={{ width: data.percentage }} className={data.border}></div>
             </div>
-            <p className="text-origin-green">{data.percentage}%</p>
+            </div>
           </div>
         </div>
       ))}
