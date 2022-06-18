@@ -3,12 +3,12 @@ import SkillGraph from "./SkillGraph";
 
 export default function Skills() {
   return (
-    <div className="flex justify-center items-center m-auto space-x-7 mt-14 mb-10">
+    <div className="flex justify-center items-center m-auto desktop:space-x-7 mt-14 mb-10 mobile:flex-col">
       <div className="flex justify-center items-center">
         <Image src="/skill.png" alt="skill" width={380} height={280} />
       </div>
       <div className="max-w-sm">
-        <div className="flex justify-start mt-6 mb-6 space-x-4 items-center">
+        <div className="flex justify-start mt-6 mb-6 desktop:space-x-4 items-center mobile:flex-col">
           <p className="font-bold text-xl leading-relaxed text-origin-black tracking-widest">
             スキル
           </p>
@@ -17,7 +17,7 @@ export default function Skills() {
           </p>
         </div>
 
-        <p className="text-sm text-origin-black">
+        <p className="text-sm text-origin-black tracking-widest pl-5 pr-5">
           AWSのインフラ構築作業やサポート業務を2年ほど行っていました。昨年夏に、AWSソリューションアーキテクトの資格を取得しました。
           <br></br>
           現在所属している開発部では、PMとしてプロジェクトの予算確保からリリースまでを担当しています。

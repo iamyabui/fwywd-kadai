@@ -10,15 +10,15 @@ import Style from "./BackGround.module.scss";
 export default function Layout({ children }) {
   return (
     <div>
-      <nav className="flex justify-between max-w-5xl m-auto">
-        <div className="block items-center pl-8">
+      <nav className="flex desktop:justify-between max-w-5xl m-auto mobile:flex-col mobile:text-center">
+        <div className="block items-center desktop:pl-8">
           <Image src="/logo.png" alt="fwywd Logo" width={160} height={70} />
         </div>
-        <div className="flex justify-end items-center pr-8 space-x-4 text-origin-green">
-          <div className="flex space-x-4">ABOUT</div>
-          <div className="flex space-x-4">SKILLS</div>
-          <div className="flex space-x-4">VALUES</div>
-          <div className="flex space-x-4">FUTURE</div>
+        <div className="flex justify-end items-center mobile:m-auto desktop:pr-8 text-origin-green">
+          <div className="flex pr-2 pl-2">ABOUT</div>
+          <div className="flex pr-2 pl-2">SKILLS</div>
+          <div className="flex pr-2 pl-2">VALUES</div>
+          <div className="flex pr-2 pl-2">FUTURE</div>
         </div>
       </nav>
       <MainTitle />

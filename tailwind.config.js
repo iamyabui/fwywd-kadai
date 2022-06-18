@@ -15,6 +15,10 @@ module.exports = {
         "border-line": "#c5eaea",
       },
     },
+    screens: {
+      'mobile': {'max': '894px'},
+      'desktop': {'max': '1440px', 'min': '895px'},
+    },
   },
   plugins: [],
 };
