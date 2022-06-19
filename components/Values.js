@@ -6,7 +6,7 @@ export default function Values() {
 
   return (
     <div className="pt-14 pb-10">
-      <div className="flex justify-center mt-6 items-center desktop:space-x-4 mobile:flex-col">
+      <div id="values" className="flex justify-center mt-6 items-center desktop:space-x-4 mobile:flex-col">
         <p className="font-bold text-xl leading-relaxed text-gray-600 tracking-widest">
           価値観
         </p>

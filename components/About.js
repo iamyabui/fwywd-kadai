@@ -6,7 +6,7 @@ export default function About() {
 
   return (
     <>
-      <div className="flex justify-center pt-6 items-center mobile:flex-col desktop:space-x-4">
+      <div id="about" className="flex justify-center pt-6 items-center mobile:flex-col desktop:space-x-4">
         <p className="font-bold text-xl leading-relaxed text-origin-black tracking-widest">
           私について
         </p>

@@ -1,6 +1,14 @@
 .background {
   background-image: url(/bg-skills.png), url(/bg-about.png), url(/bg-future.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 0px 400px, 0px -40px, 0px bottom;
-  background-size: 100% 33%, 100% auto, 100% auto;
+  background-position: 0px 500px, 0px -40px, 0px 1400px;
+  background-size: 100% 33%, 100% auto, 100% 50%;
 }
+
+
+// .background_mobile {
+//   background-image: url(/bg-skills.png), url(/bg-about.png), url(/bg-future.png);
+//   background-repeat: no-repeat, no-repeat, no-repeat;
+//   background-position: 0px 1320px, 0px top, 0px bottom;
+//   background-size: 100% auto, 100% auto, 100% auto;
+// }

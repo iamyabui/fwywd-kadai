@@ -9,16 +9,16 @@ import Style from "./BackGround.module.scss";
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className="min-w-[365px]">
       <nav className="flex desktop:justify-between max-w-5xl m-auto mobile:flex-col mobile:text-center">
         <div className="block items-center desktop:pl-8">
           <Image src="/logo.png" alt="fwywd Logo" width={160} height={70} />
         </div>
         <div className="flex justify-end items-center mobile:m-auto desktop:pr-8 text-origin-green">
-          <div className="flex pr-2 pl-2">ABOUT</div>
-          <div className="flex pr-2 pl-2">SKILLS</div>
-          <div className="flex pr-2 pl-2">VALUES</div>
-          <div className="flex pr-2 pl-2">FUTURE</div>
+          <div className="flex pr-2 pl-2"><a href="#about">ABOUT</a></div>
+          <div className="flex pr-2 pl-2"><a href="#skills">SKILLS</a></div>
+          <div className="flex pr-2 pl-2"><a href="#values">VALUES</a></div>
+          <div className="flex pr-2 pl-2"><a href="#future">FUTURE</a></div>
         </div>
       </nav>
       <MainTitle />
