@@ -5,25 +5,50 @@ import About from "./About";
 import Skills from "./Skills";
 import Values from "./Values";
 import Future from "./Future";
-import Style from "./BackGround.module.scss";
 
 export default function Layout({ children }) {
   return (
-    <div>
-      <nav className="flex justify-between max-w-5xl m-auto">
-        <div className="block items-center pl-8">
+    <div className="min-w-[365px]">
+      <nav 
+      className="
+        flex  
+        max-w-5xl 
+        m-auto 
+        desktop:justify-between 
+        mobile:flex-col 
+        mobile:text-center
+      ">
+        <div className="block items-center desktop:pl-8">
           <Image src="/logo.png" alt="fwywd Logo" width={160} height={70} />
         </div>
-        <div className="flex justify-end items-center pr-8 space-x-4 text-origin-green">
-          <div className="flex space-x-4">ABOUT</div>
-          <div className="flex space-x-4">SKILLS</div>
-          <div className="flex space-x-4">VALUES</div>
-          <div className="flex space-x-4">FUTURE</div>
+        <div 
+        className="
+          flex 
+          justify-end 
+          items-center 
+          text-origin-green
+          mobile:m-auto 
+          desktop:pr-8 
+        ">
+          <div className="flex pr-2 pl-2"><a href="#about">ABOUT</a></div>
+          <div className="flex pr-2 pl-2"><a href="#skills">SKILLS</a></div>
+          <div className="flex pr-2 pl-2"><a href="#values">VALUES</a></div>
+          <div className="flex pr-2 pl-2"><a href="#future">FUTURE</a></div>
         </div>
       </nav>
       <MainTitle />
       <main>
-        <div className={Style.background}>
+        <div 
+        className="
+          bg-no-repeat 
+          desktop:bg-img 
+          desktop:bg-position 
+          desktop:bg-size 
+          bg-background:
+          mobile:bg-img-mobile
+          mobile:bg-position-mobile 
+          mobile:bg-size-mobile
+        ">
           {children}
           <About />
           <Skills />
@@ -58,7 +83,7 @@ export default function Layout({ children }) {
               />
             </div>
           </div>
-          <p className="flex justify-center  pb-5">@ 2021 KIKAGAKU</p>
+          <p className="flex justify-center pb-5">@ 2021 KIKAGAKU</p>
         </div>
       </footer>
     </div>

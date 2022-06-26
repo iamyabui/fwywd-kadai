@@ -2,14 +2,14 @@
   "about": [
     {
       "category": "趣味",
-      "text": "趣味は映画鑑賞です。90年代の映画を観たり、各国のおもしろい映画をツタヤで発掘するのも好きです。特に、スウェーデンの「シンプル・シモン」という映画が一番のお気に入りです。最近は、鬼滅の刃を観てからアニメにはまり、エヴァンゲリオンや鋼の錬金術師など、色々なアニメを見るのが好きです！",
+      "text": "趣味は映画鑑賞です。90年代の映画を観たり、各国のおもしろい映画をツタヤで発掘するのも好きです。特に、スウェーデンの「シンプル・シモン」という映画が一番のお気に入りです。最近は、鬼滅の刃を観てからアニメにはまり、エヴァンゲリオンやReゼロなど、色々なアニメを見るのが好きです！",
       "src": "/about-1.png",
       "width": 180,
       "height": 150
     },
     {
       "category": "好きな食べ物",
-      "text": "かぼちゃが大好きです。高校生の時に、かぼちゃを食べすぎて友達に顔が黄色いよと言われたぐらい大好きです。また、海鮮が大好きなので、近所の魚屋さんで新鮮なかきや、ブリを買ってきて調理するのが好きです。いつか魚まるまる一匹をさばけるようになりたいです！",
+      "text": "ナポリタンとオムライスが大好物です。どちらもお店で食べるよりは、自分で作ったり人に作ってもらう方が好きです。特にナポリタンの作り方についてはこだわりがあり、ケチャップを煮詰めて酸味を飛ばしてからソースを絡める作り方が私の好みです。ただどちらもカロリーが高いので、自分へのご褒美ご飯にしています。",
       "src": "/about-2.png",
       "width": 190,
       "height": 150
@@ -26,22 +26,26 @@
     {
       "skill": "React",
       "percentage": "50%",
-      "border": "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-progress-color2"
+      "border": "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-progress-color-secondary",
+      "secondary-border": "#2bb9ba"
     },
     {
       "skill": "Next.js",
       "percentage": "50%",
-      "border": "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-progress-color2"
+      "border": "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-progress-color-secondary",
+      "secondary-border": "#2bb9ba"
     },
     {
       "skill": "AWS",
       "percentage": "70%",
-      "border": "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-progress-color2"
+      "border": "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-progress-color-secondary",
+      "secondary-border": "#2bb9ba"
     },
     {
       "skill": "コミュニケーション力",
       "percentage": "70%",
-      "border": "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-progress-color2"
+      "border": "shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-progress-color-secondary",
+      "secondary-border": "#2bb9ba"
     }
   ],
   "value": [
