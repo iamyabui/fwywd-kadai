@@ -1,16 +1,27 @@
 import Image from "next/image";
 import SkillGraph from "./SkillGraph";
+import Data from "../src/data.json";
 
 export default function Skills() {
+  const text = Data.skills.text;
   return (
     <>
-      <div id="skills" className="flex justify-center mt-20 desktop:space-x-4 items-center mobile:flex-col">
-        <p className="font-bold text-xl leading-relaxed text-origin-black tracking-widest">
+      <div 
+        id="skills" 
+        className="
+          flex 
+          justify-center 
+          items-center 
+          mt-20 
+          desktop:space-x-4  
+          mobile:flex-col
+          ">
+        <h3 className="font-bold text-xl leading-relaxed text-origin-black tracking-widest">
           スキル
-        </p>
-        <p className="text-lg leading-relaxed text-origin-green tracking-widest">
+        </h3>
+        <h3 className="text-lg leading-relaxed text-origin-green tracking-widest">
           SKILLS
-        </p>
+        </h3>
       </div>
       <div className="flex justify-center items-center m-auto mt-8 mb-10 mobile:flex-col">
         <div className="flex justify-center items-center mb-8">
@@ -18,13 +29,8 @@ export default function Skills() {
         </div>
         <div className="w-96 desktop:pl-8 mobile:w-72">
           <p className="text-sm text-origin-black tracking-widest">
-            AWSのインフラ構築作業やサポート業務を2年ほど行っていました。昨年夏に、AWSソリューションアーキテクトの資格を取得しました。
-            <br></br>
-            現在所属している開発部では、PMとしてプロジェクトの予算確保からリリースまでを担当しています。
-            <br></br>
-            プログラムに関しては、Javascript、React、Next.js、typescriptを学んで独自でアプリケーションを作成しています。
+            {text}
           </p>
-
           <SkillGraph />
         </div>
       </div>

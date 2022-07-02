@@ -7,12 +7,12 @@ export default function About() {
   return (
     <>
       <div id="about" className="flex justify-center pt-6 items-center mobile:flex-col desktop:space-x-4">
-        <p className="font-bold text-xl leading-relaxed text-origin-black tracking-widest">
+        <h3 className="font-bold text-xl leading-relaxed text-origin-black tracking-widest">
           私について
-        </p>
-        <p className="text-base leading-relaxed text-origin-green tracking-widest">
+        </h3>
+        <h3 className="text-base leading-relaxed text-origin-green tracking-widest">
           ABOUT
-        </p>
+        </h3>
       </div>
 
       <div className="max-w-4xl mx-auto flex justify-center py-4 mobile:flex-col">
@@ -26,9 +26,9 @@ export default function About() {
                 height={data.height}
               />
             </div>
-            <p className="mt-3 text-center font-bold text-base leading-relaxed text-origin-green tracking-widest">
+            <h4 className="mt-3 text-center font-bold text-base leading-relaxed text-origin-green tracking-widest">
               {data.category}
-            </p>
+            </h4>
             <p className="m-3 text-sm text-origin-black h-34">{data.text}</p>
           </div>
         ))}
