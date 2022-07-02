@@ -29,7 +29,7 @@ module.exports = {
     },
     backgroundSize: {
       'size': '100% 33%, 100% auto, 100% 50%',
-      'size-mobile': '100% 25%, 100% %'
+      'size-mobile': '100% 25%, 100%'
     }
   },
   plugins: [],

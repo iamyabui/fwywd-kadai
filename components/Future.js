@@ -1,19 +1,31 @@
 import Image from "next/image";
+import Data from "../src/data.json";
 
 export default function Future() {
+  const text = Data.future.text;
+
   return (
-    <div id="future" className="flex w-screen max-w-4xl min-w-[365px] m-auto desktop:justify-between pt-8 mobile:flex-col">
+    <div 
+      id="future" 
+      className="
+        flex w-screen 
+        max-w-4xl 
+        min-w-[365px] 
+        m-auto 
+        pt-8 
+        desktop:justify-between 
+        mobile:flex-col">
       <div className="max-w-md my-auto mobile:mx-auto mb-5">
         <div className="flex desktop:space-x-4 items-center mobile:flex-col">
-          <p className="font-bold text-xl leading-relaxed text-origin-black tracking-widest">
+          <h3 className="font-bold text-xl leading-relaxed text-origin-black tracking-widest">
             3年後にやりたいこと
-          </p>
-          <p className="text-base leading-relaxed text-origin-green tracking-widest">
+          </h3>
+          <h3 className="text-base leading-relaxed text-origin-green tracking-widest">
             FUTURE
-          </p>
+          </h3>
         </div>
         <p className="mt-3 px-5 text-sm text-origin-black">
-          社会において人々が抱えている悩みや課題を解決するアプリを、自分で企画して作成できるようになりたいです。そのためには、日々様々な情報を積極的にインプットして、社会が抱えている問題や悩みに対してどのようにしたらITで解決できるか常に考えられるエンジニアになりたいです。
+          {text}
         </p>
       </div>
       <div className="mobile:mx-auto">
